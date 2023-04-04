@@ -4,6 +4,14 @@
   "bracketSameLine": false,
   "bracketSpacing": true,
   "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ],
   "printWidth": 120,
   "quoteProps": "as-needed",
   "semi": true,
